@@ -54,6 +54,5 @@ var impuestos = valores.map {impuesto(data: [$0])}
 print(valores )
 print(impuestos)
 //parte 7
-var precio_menor = impuestos.filter{a in a > 6.0}
+var precio_menor = impuestos.filter{a in a > 6.0}
 print(precio_menor)
-
